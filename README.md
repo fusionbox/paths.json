@@ -29,6 +29,8 @@ You can use this data to combine multiple states' paths.  Just compare the start
 that share both start and end points.  Here's some php code that does exactly that.
 
 ``` php
+<?php
+
 $regions = array(/* the regions from us_states.json that you want to combine */);
 
 // flatten the paths into one list
